@@ -54,7 +54,7 @@ body {
 }
 
 .value-propositions {
-    background-image: radial-gradient(circle, #0f64309a, #0f642f); /* From light gray to dark gray */
+    background-image: radial-gradient(circle, #0f64309a, #0f642f);
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -79,4 +79,34 @@ body {
     aspect-ratio: 16/9;
     border-radius: 5px;
     /* border: 2px solid black; */
+}
+
+.area3 {
+    background-image: radial-gradient(circle, #372f0adb, #372f0a);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    width: 100vw;
+    height:100vh;
+}
+
+.area3 h1 {
+    color: #fff;
+}
+
+.contact-btn {
+    background-color: #007bff; /* Blue color, adjust as needed */
+    color: #fff; /* White text */
+    padding: 15px 30px; /* Adjust padding for desired size */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Hand pointer on hover */
+    text-transform: uppercase; /* Capitalize text */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.2s ease-in-out; /* Smooth color change on hover */
+}
+
+.contact-btn:hover {
+    background-color: #0062cc; /* Slightly darker blue on hover */
 }
