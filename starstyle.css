@@ -1,5 +1,6 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Padauk';
+    font-size: 1rem;
     margin: 0;
     padding: 0;
     /* height: 100vh; */
@@ -53,6 +54,7 @@ body {
 }
 
 .value-propositions {
+    background-image: radial-gradient(circle, #0f64309a, #0f642f); /* From light gray to dark gray */
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -67,9 +69,14 @@ body {
     justify-content: space-between;
 }
 
+.text-media h2 {
+    color: #fff;
+}
+
 .text-media img,
 .text-media video {
     width: 40%;
     aspect-ratio: 16/9;
-    border: 2px solid black;
+    border-radius: 5px;
+    /* border: 2px solid black; */
 }
